@@ -187,7 +187,7 @@ Para ordenar `[0.42, 0.32, 0.63, 0.53, 0.51]`, o **Bucket Sort**:
 
 - Desempenho depende da distribuição dos dados.
 
-[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/algoritimos_ordena%C3%A7%C3%A2o/bucket_sort.c)
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/algoritimos_ordena%C3%A7%C3%A2o/bucket_sort.c)
 
 ---
 
@@ -214,7 +214,7 @@ Para ordenar `[170, 45, 75, 90, 802, 24, 2, 66]`, o **Radix Sort**:
 
 - Pode ser ineficiente para listas muito grandes com muitos dígitos.
 
-[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/algoritimos_ordena%C3%A7%C3%A2o/radix_sort.c)
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/algoritimos_ordena%C3%A7%C3%A2o/radix_sort.c)
 
 ---
 
@@ -225,7 +225,7 @@ Descrição: O Quick Sort é um algoritmo eficiente de ordenação baseado na es
 
 Escolha do pivô: O desempenho do Quick Sort depende da escolha do pivô. Se o pivô for escolhido de maneira eficiente (como o pivô médio ou o pivô aleatório), o algoritmo pode ter bom desempenho mesmo em listas grandes.
 
-[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/algoritimos_ordena%C3%A7%C3%A2o/quick_sort.c)
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/algoritimos_ordena%C3%A7%C3%A2o/quick_sort.c)
 
 ---
 
@@ -262,7 +262,7 @@ Abaixo está uma tabela comparativa dos tempos de execução de **Binary Search*
 ### Observações:
 - O desempenho dos algoritmos pode variar dependendo da distribuição dos dados e do tamanho da lista. Em geral, algoritmos com complexidade O(log n) tendem a ser mais eficientes em listas grandes.
 
-[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/compara%C3%A7%C3%B5es/Compara%C3%A7%C3%A3o_Algoritmos_busca.c)
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/compara%C3%A7%C3%B5es/Compara%C3%A7%C3%A3o_Algoritmos_busca.c)
 
 ---
 
@@ -296,7 +296,7 @@ Esta tabela compara os tempos de execução e as características de alguns dos 
 
 A escolha do algoritmo de ordenação depende do tamanho e da natureza dos dados. Para listas pequenas ou quase ordenadas, algoritmos como **Insertion Sort** podem ser rápidos, enquanto para listas grandes, algoritmos como **Merge Sort** ou **Quick Sort** são mais eficientes. Algoritmos como **Radix Sort** e **Bucket Sort** podem ser ideais para conjuntos de dados com características específicas, como números inteiros em um intervalo limitado.
 
-[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/compara%C3%A7%C3%B5es/Compara%C3%A7%C3%A3o_algoritmos%20_ordena%C3%A7%C3%A3o.c)
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/compara%C3%A7%C3%B5es/Compara%C3%A7%C3%A3o_algoritmos%20_ordena%C3%A7%C3%A3o.c)
 
 ---
 
@@ -347,7 +347,7 @@ A escolha do algoritmo de ordenação depende do tamanho e da natureza dos dados
   - Tempo: O(n log n)
   - Espaço: O(n)
  
-[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/ordenacao_busca_em_strings/mergeSortWords.c)
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/ordenacao_busca_em_strings/mergeSortWords.c)
 
 ### 2. Ordenação de Palavras com Quick Sort
 - **Como funciona**: Usa um pivô para dividir a lista, ordenando as palavras em cada lado.
@@ -355,7 +355,7 @@ A escolha do algoritmo de ordenação depende do tamanho e da natureza dos dados
   - Tempo: O(n log n) (média), O(n²) (pior caso)
   - Espaço: O(log n)
  
-[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/ordenacao_busca_em_strings/quickSortWords.c)
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/ordenacao_busca_em_strings/quickSortWords.c)
 
 ### 3. Busca de Palavras com Binary Search
 - **Como funciona**: Em uma lista ordenada, compara a palavra com o elemento central e ajusta a busca para a metade relevante.
@@ -363,7 +363,7 @@ A escolha do algoritmo de ordenação depende do tamanho e da natureza dos dados
   - Tempo: O(log n)
   - Espaço: O(1) (versão iterativa)
    - 
-[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/ordenacao_busca_em_strings/binarySearchWords.c)
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/ordenacao_busca_em_strings/binarySearchWords.c)
 
 ---
 
@@ -381,7 +381,7 @@ A escolha do algoritmo de ordenação depende do tamanho e da natureza dos dados
   - Tempo: O(log n)
   - Espaço: O(1) (versão iterativa)
  
-[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/Aplica%C3%A7%C3%A3o_busca/Aplica%C3%A7%C3%A3o_Pr%C3%A1tica_Busca.c)
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/Aplica%C3%A7%C3%A3o_busca/Aplica%C3%A7%C3%A3o_Pr%C3%A1tica_Busca.c)
 
 ---
 
@@ -395,7 +395,7 @@ A escolha do algoritmo de ordenação depende do tamanho e da natureza dos dados
 
 - **Interpolation Search**: Após ordenar as notas com o **Bucket Sort**, o **Interpolation Search** é utilizado para procurar uma nota específica de um aluno. O algoritmo é eficiente para listas com valores uniformemente distribuídos, como as notas dos alunos.
 
-[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/Aplica%C3%A7%C3%A3o_busca/Busca_ordena%C3%A7%C3%A3o_dados_reais.c)
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/Aplica%C3%A7%C3%A3o_busca/Busca_ordena%C3%A7%C3%A3o_dados_reais.c)
 
 ---
 
@@ -434,6 +434,8 @@ Por outro lado, uma **ordenação instável** pode alterar a ordem relativa de e
 - **Processo**: Seleciona o menor (ou maior) elemento e o coloca na posição correta, repetindo até ordenar a lista.
 - **Visualização**: Demonstra a seleção e troca dos elementos em cada etapa.
 
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/An%C3%A1lise%20_Visual_Algoritmos%20.py)
+
 ---
 
 # 20. Desafios de Implementação: Comparação de Algoritmos de Busca e Ordenação
@@ -469,7 +471,5 @@ Por outro lado, uma **ordenação instável** pode alterar a ordem relativa de e
 3. Em seguida, o usuário escolhe **Binary Search** para procurar um número na lista ordenada.
 4. O programa retorna o índice do número e o tempo de execução da busca.
 
-## Conclusão
-
-Este programa oferece uma maneira interativa de explorar diferentes algoritmos de busca e ordenação, permitindo que o usuário compare o desempenho de cada um de forma prática e eficiente.
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/Desafio/desafios_implementa%C3%A7%C3%A3o.c)
 
