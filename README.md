@@ -423,14 +423,27 @@ Por outro lado, uma **ordenação instável** pode alterar a ordem relativa de e
 ## Algoritmos Abordados
 
 ### 1. **Merge Sort**
+
+![Minha Imagem](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/imagens/Merge%20Sort_step_1.png)
+
+
 - **Processo**: Divide a lista em sublistas menores e as mescla de forma ordenada.
 - **Visualização**: Mostra a divisão da lista e como as sublistas são combinadas até formar a lista ordenada.
 
+
 ### 2. **Quick Sort**
+
+![Minha Imagem](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/imagens/Quick%20Sort_step_1.png)
+
+
 - **Processo**: Escolhe um pivô e reorganiza os elementos ao seu redor, repetindo o processo nas sublistas.
 - **Visualização**: Exibe como o pivô é escolhido e como os elementos são movidos à medida que a lista é ordenada.
 
 ### 3. **Selection Sort**
+
+![Minha Imagem](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/imagens/Selection%20Sort_step_1.png)
+
+
 - **Processo**: Seleciona o menor (ou maior) elemento e o coloca na posição correta, repetindo até ordenar a lista.
 - **Visualização**: Demonstra a seleção e troca dos elementos em cada etapa.
 
