@@ -27,7 +27,7 @@ void bucketSort(float arr[], int n) {
 
     for (int i = 0; i < n; i++) {
         int index = (int)(arr[i] * BUCKET_COUNT);
-        if (index == BUCKET_COUNT) {  // Corrigir caso o valor seja 1.0
+        if (index == BUCKET_COUNT) {  
             index = BUCKET_COUNT - 1;
         }
         buckets[index][bucketCount[index]] = arr[i];
