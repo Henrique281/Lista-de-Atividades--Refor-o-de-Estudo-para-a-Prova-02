@@ -9,7 +9,6 @@ int main() {
     int tamanho = sizeof(arr) / sizeof(arr[0]);
     char *target = "laranja";
     
-    // Ordenando a lista antes de realizar a busca binária
     qsort(arr, tamanho, sizeof(char *), (int (*)(const void *, const void *))strcmp);
     
     printf("Procurando por: %s\n", target);
