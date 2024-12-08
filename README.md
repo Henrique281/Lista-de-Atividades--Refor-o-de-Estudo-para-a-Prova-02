@@ -17,6 +17,8 @@ Considerando a lista ordenada `[1, 3, 5, 7, 9]`, ao procurar o número **7**, o 
 
 A Busca Binária encontra o número **7** rapidamente, realizando apenas duas comparações.
 
+[Código](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/Aplica%C3%A7%C3%A3o_busca/Aplica%C3%A7%C3%A3o_Pr%C3%A1tica_Busca.c)
+
 
 ---
 
@@ -34,6 +36,8 @@ Em listas com distribuição uniforme, a **Busca por Interpolação** pode ser m
 
 Dada uma lista de inteiros entre 1 e 100 e a busca pelo número **47**, a **Busca por Interpolação** tentaria estimar a posição do **47** com base nos valores mínimo e máximo da lista, em vez de começar do meio. Essa abordagem pode resultar em uma busca mais eficiente quando os dados estão uniformemente distribuídos.
 
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/algoritimos_busca/busca_interpolacao.c)
+
 ---
 
 # 3. Busca por Saltos (Jump Search)
@@ -49,6 +53,8 @@ O tamanho ideal do salto é **√n**, onde **n** é o tamanho da lista. Esse tam
 ## Exemplo
 
 Se a lista tiver **100 elementos** e o tamanho do "salto" for **10**, o algoritmo irá verificar os elementos nas posições **0, 10, 20, 30,** e assim por diante, até encontrar o bloco correto. Após localizar o bloco, a busca linear é realizada dentro dele para encontrar o valor alvo.
+
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/algoritimos_busca/busca_jump.c)
 
 ---
 
@@ -66,6 +72,8 @@ A **Busca Exponencial** combina a "expansão" de índices (semelhante ao **Jump 
 
 Suponha que você esteja procurando o número **67** em uma lista crescente. O algoritmo começaria verificando os índices **1, 2, 4, 8, 16,** e assim por diante, até encontrar um índice maior que **67**. Após localizar o intervalo correto, a busca binária é aplicada entre os índices onde o número poderia estar.
 
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/algoritimos_busca/busca_Exponencial.c)
+
 ---
 
 # 5. Ternary Search
@@ -77,6 +85,8 @@ O **Ternary Search** é uma variação do **Binary Search**, onde a lista é div
 ## Exemplo
 
 Em uma lista ordenada, ao invés de comparar o valor com o **elemento central** como na busca binária, o **Ternary Search** divide a lista em três partes e realiza **duas comparações** a cada iteração para decidir qual parte da lista a busca deve continuar.
+
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/algoritimos_busca/busca_ternaria.c)
 
 ---
 
@@ -93,6 +103,8 @@ A sequência de intervalos afeta a eficiência do algoritmo. **Sequências mais 
 ## Exemplo
 
 Suponha que você tenha uma lista de **tamanho 10**. A sequência de intervalos pode começar com **5**, depois **3**, e, finalmente, **1**. O algoritmo aplica o **Insertion Sort** nos subgrupos definidos por esses intervalos, reduzindo os intervalos até que a lista esteja totalmente ordenada.
+
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/algoritimos_ordena%C3%A7%C3%A2o/shell_sort.c)
 
 ---
 
@@ -120,6 +132,10 @@ Dada a lista `[38, 27, 43, 3, 9, 82, 10]`, o Merge Sort:
 
 - Requer **espaço adicional** para armazenar as sublistas.
 
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/algoritimos_ordena%C3%A7%C3%A2o/merge_sort_tipoInt.c)
+
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/algoritimos_ordena%C3%A7%C3%A2o/merge_sort_tipoString.c)
+
 ---
 
 # 8. Selection Sort
@@ -143,6 +159,8 @@ Para ordenar `[29, 10, 14, 37, 13]`, o **Selection Sort**:
 ## Desvantagens
 
 - Complexidade **O(n²)**, ineficiente para listas grandes.
+
+[codigo](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/algoritimos_ordena%C3%A7%C3%A2o/selection_sort.c)
 
 ---
 
@@ -169,6 +187,8 @@ Para ordenar `[0.42, 0.32, 0.63, 0.53, 0.51]`, o **Bucket Sort**:
 
 - Desempenho depende da distribuição dos dados.
 
+[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/algoritimos_ordena%C3%A7%C3%A2o/bucket_sort.c)
+
 ---
 
 # 10. Radix Sort
@@ -194,6 +214,8 @@ Para ordenar `[170, 45, 75, 90, 802, 24, 2, 66]`, o **Radix Sort**:
 
 - Pode ser ineficiente para listas muito grandes com muitos dígitos.
 
+[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/algoritimos_ordena%C3%A7%C3%A2o/radix_sort.c)
+
 ---
 
 11. Quick Sort
@@ -202,6 +224,8 @@ Quick_Sort
 Descrição: O Quick Sort é um algoritmo eficiente de ordenação baseado na estratégia "dividir para conquistar". Ele escolhe um pivô, particiona a lista em torno desse pivô e recursivamente ordena as sublistas. A complexidade média é O(n log n), mas no pior caso pode ser O(n²).
 
 Escolha do pivô: O desempenho do Quick Sort depende da escolha do pivô. Se o pivô for escolhido de maneira eficiente (como o pivô médio ou o pivô aleatório), o algoritmo pode ter bom desempenho mesmo em listas grandes.
+
+[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/algoritimos_ordena%C3%A7%C3%A2o/quick_sort.c)
 
 ---
 
@@ -238,6 +262,8 @@ Abaixo está uma tabela comparativa dos tempos de execução de **Binary Search*
 ### Observações:
 - O desempenho dos algoritmos pode variar dependendo da distribuição dos dados e do tamanho da lista. Em geral, algoritmos com complexidade O(log n) tendem a ser mais eficientes em listas grandes.
 
+[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/compara%C3%A7%C3%B5es/Compara%C3%A7%C3%A3o_Algoritmos_busca.c)
+
 ---
 
 # 13 Comparação dos Algoritmos de Ordenação
@@ -270,6 +296,7 @@ Esta tabela compara os tempos de execução e as características de alguns dos 
 
 A escolha do algoritmo de ordenação depende do tamanho e da natureza dos dados. Para listas pequenas ou quase ordenadas, algoritmos como **Insertion Sort** podem ser rápidos, enquanto para listas grandes, algoritmos como **Merge Sort** ou **Quick Sort** são mais eficientes. Algoritmos como **Radix Sort** e **Bucket Sort** podem ser ideais para conjuntos de dados com características específicas, como números inteiros em um intervalo limitado.
 
+[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/compara%C3%A7%C3%B5es/Compara%C3%A7%C3%A3o_algoritmos%20_ordena%C3%A7%C3%A3o.c)
 
 ---
 
@@ -319,18 +346,24 @@ A escolha do algoritmo de ordenação depende do tamanho e da natureza dos dados
 - **Complexidade**: 
   - Tempo: O(n log n)
   - Espaço: O(n)
+ 
+[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/ordenacao_busca_em_strings/mergeSortWords.c)
 
 ### 2. Ordenação de Palavras com Quick Sort
 - **Como funciona**: Usa um pivô para dividir a lista, ordenando as palavras em cada lado.
 - **Complexidade**:
   - Tempo: O(n log n) (média), O(n²) (pior caso)
   - Espaço: O(log n)
+ 
+[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/ordenacao_busca_em_strings/quickSortWords.c)
 
 ### 3. Busca de Palavras com Binary Search
 - **Como funciona**: Em uma lista ordenada, compara a palavra com o elemento central e ajusta a busca para a metade relevante.
 - **Complexidade**:
   - Tempo: O(log n)
   - Espaço: O(1) (versão iterativa)
+   - 
+[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/ordenacao_busca_em_strings/binarySearchWords.c)
 
 ---
 
@@ -347,6 +380,8 @@ A escolha do algoritmo de ordenação depende do tamanho e da natureza dos dados
 - **Binary Search**:
   - Tempo: O(log n)
   - Espaço: O(1) (versão iterativa)
+ 
+[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/Aplica%C3%A7%C3%A3o_busca/Aplica%C3%A7%C3%A3o_Pr%C3%A1tica_Busca.c)
 
 ---
 
@@ -359,6 +394,8 @@ A escolha do algoritmo de ordenação depende do tamanho e da natureza dos dados
 - **Bucket Sort**: As notas dos alunos são divididas em "baldes" (intervalos de notas), e cada balde é ordenado separadamente. O resultado final é uma lista de notas ordenadas.
 
 - **Interpolation Search**: Após ordenar as notas com o **Bucket Sort**, o **Interpolation Search** é utilizado para procurar uma nota específica de um aluno. O algoritmo é eficiente para listas com valores uniformemente distribuídos, como as notas dos alunos.
+
+[code](https://github.com/Henrique281/Lista-de-Atividades--Refor-o-de-Estudo-para-a-Prova-02/blob/main/Aplica%C3%A7%C3%A3o_busca/Busca_ordena%C3%A7%C3%A3o_dados_reais.c)
 
 ---
 
